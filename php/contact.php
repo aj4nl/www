@@ -18,8 +18,8 @@ if (empty($_POST["message"])) {
 } else {
     $message = $_POST["message"];
 }
-$EmailTo = "info@kogna.tech";
-$Subject = "KOGNA - Message received.";
+$EmailTo = "info@aj4.nl";
+$Subject = "Bericht van website AJ4";
 // prepare email body text
 $Body = "";
 $Body .= "Name: ";
